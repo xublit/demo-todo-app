@@ -1,0 +1,23 @@
+schemaName: todo
+modelClassName: TodoModel
+
+fields:
+
+    list:
+        type: objectId
+        required: true
+        index: true
+
+    summary:
+        type: string
+        required: true
+
+    completed:
+        type: date
+
+relationships:
+
+    belongsTo:
+
+        list:
+            schemaName: todoList

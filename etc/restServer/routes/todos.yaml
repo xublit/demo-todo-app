@@ -1,0 +1,17 @@
+# Todo Routes
+# --------------------------------------------------
+
+todo_searchAll:
+    method: GET
+    path: /todos
+    controller: TodoRouteController:search
+
+todo_getOneById:
+    method: GET
+    path: /todos/:todoId
+    controller: TodoRouteController:getOneById
+
+todo_create:
+    method: POST
+    path: /todos
+    controller: TodoRouteController:create

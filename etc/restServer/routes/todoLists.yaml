@@ -1,0 +1,17 @@
+# Todo List Routes
+# --------------------------------------------------
+
+todoList_searchAll:
+    method: GET
+    path: /todoLists
+    controller: TodoListRouteController:search
+
+todoList_getOneById:
+    method: GET
+    path: /todoLists/:todoId
+    controller: TodoListRouteController:getOneById
+
+todoList_create:
+    method: POST
+    path: /todoLists
+    controller: TodoListRouteController:createOne

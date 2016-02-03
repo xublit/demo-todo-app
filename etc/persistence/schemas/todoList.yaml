@@ -1,0 +1,22 @@
+schemaName: todoList
+modelClassName: TodoListModel
+
+fields:
+
+    title:
+        type: string
+        required: true
+
+    description:
+        type: string
+
+    todos:
+        type: arrayOfObjectIds
+        index: true
+
+relationships:
+
+    hasMany:
+
+        todos:
+            schemaName: todo
