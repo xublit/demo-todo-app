@@ -1,0 +1,31 @@
+{
+  "name": "demo-todo-app",
+  "version": "1.0.0",
+  "description": "Demo todo app built with Xublit",
+  "main": "index.js",
+  "dependencies": {
+    "xublit-io": "^1.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xublit/demo-todo-app.git"
+  },
+  "keywords": [
+    "xublit",
+    "demo",
+    "todo",
+    "rest",
+    "mongo",
+    "server"
+  ],
+  "author": "Cal Milne <cal@calmilne.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xublit/demo-todo-app/issues"
+  },
+  "homepage": "https://github.com/xublit/demo-todo-app#readme"
+}
