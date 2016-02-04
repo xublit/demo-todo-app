@@ -2,8 +2,9 @@
   "name": "demo-todo-app",
   "version": "1.0.0",
   "description": "Demo todo app built with Xublit",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
+    "xublit-etc": "^1.0.0-rc.1",
     "xublit-io": "^1.0.0-rc.2"
   },
   "devDependencies": {},

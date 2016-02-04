@@ -1,0 +1,9 @@
+restServer:
+    port: 7331
+    hostname: 127.0.0.1
+    maxTcpBacklogSize: 500
+
+persistence:
+    mongodb:
+        hostname: localhost
+        store: xublit_demo_todo
